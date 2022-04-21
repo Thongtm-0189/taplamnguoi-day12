@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: aqua;
+    width: 60%;
+    height: 65%;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 5px aqua, 0 0 10px white, 0 0 20px aqua, 0 0 40px aqua;
+}
+
+.take{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+}
